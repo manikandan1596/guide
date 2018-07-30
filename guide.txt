@@ -1,0 +1,32 @@
+GITHUB INSTRUCTIONS AND COMMANDS ~
+
+1)Configure username &user email
+	->git config --global user.name "xxx"
+	->git config --global user.email "yyy@mail.com
+
+2)change directory by "cd" command.
+	->cd <foldername> or <disk path>
+
+3) use "ls" command to view the list of files in selected directory
+	->ls
+
+4)initilize the local directory as a Git repository.
+	->git init
+
+5)add the files in the local repository.
+	->git add .
+
+6)commit the file that staged
+	->git commit -m "first commit"
+
+7)add the URL for the remote repository that to be pushed
+	->git remote add origin **/*/*URL*/*/* 
+
+8)push operation use to copy from local repository to remote one.
+	->git push -u origin master
+
+9)to create a new branch in master 
+	->git checkout -b <branch-name>
+
+10)we can push the  files in new branch by
+	->git push -u origin <branch-name>
